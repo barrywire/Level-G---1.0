@@ -2,26 +2,40 @@
 <html>
     <head>
         <title>Level G</title>
+        <link rel="shortcut icon" href="resources/GOnBlackBackground.png" type="image/x-icon">
+
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+
+        <script src="behaviour.js"></script>  
+
     </head>
-    <body>
+    <body class="works_on_smartphone">
         <header>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tweets.html">Tweets</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="gblogg.html">G Blogg</a></li>
-                <li><a href="streams.html">Streams</a></li>
+                <li><a href="index.html" id="activePage" class="navlink logo">&#9404;</a></li>
+                <li><a href="index.html" id="activePage" class="navlink">Home</a></li>
+                <li><a href="tweets.html" class="navlink">Tweets</a></li>
+                <li><a href="aboutus.html" class="navlink">About Us</a></li>
+                <li><a href="gblogg.html" class="navlink">G Blogg</a></li>
+                <li><a href="streams.html" class="navlink">Streams</a></li>
             </ul>
         </header>
         <main>
             <article>
+                <!-- Paragraph one and two together with a h1 -->
                 <h1>We are in the business of bringing you the ultimate gaming experience</h1>
                 <p>
                     We want you to join this gaming movement, our gaming movement.
                         <br>
-                    Send us an email to get started. Click the image at the bottom of the page 
+                    Send us an email to get started. Click the button at the bottom of the page 
                 </p>
                 <p>
                     Level G is a gaming platform by Africans for Africans. From Africa to the world. 
@@ -29,27 +43,47 @@
                     We at Level G, believe that there is so much untapped talent, gaming talent in Africa, at the grassroot level than is being exploited. 
                     <br>
                 </p>
+                <!-- H2 followed by paragraph 3 -->
                 <h2>You know what?</h2>
+                <p>
+                    We want YOU to come and join the movement. The journey we are forging  cannot be successful if we take it alone. We need a community, and you will get to know why.
+                </p>
+                <!-- H3 followed by paragraph 4 -->
+                <h3>I know that you barely know about Level G.</h3>
+                <p>Let me redirect you to the page that describes more about us. I want you to get to know us better. Click the image below:
+                </p>
+                <!-- Clickable image -->
+                
+                <a href="aboutus.html">
+                    <img src="resources/LevelGLogoBlackBackground.png" alt="LevelG-Logo-White-Background" class="emailPhoto">
+                </a>
+
                 <br>
                 <p>
-                    We want YOU to come and join the movement.
-                </p>
-                <h3>I know that you barely know about Level G, let me redirect you to the page that describes more about us. I want you to get to know us better.</h3>
-                <p><a target="_blank" href="aboutus.html">About Us</a>
-                    <br>
-                    You can come back here once you are done with reading it. Or better still, stay there and look at it still.
+                    You can come back here once you are done with reading it. Or better still, stay there and get to know as much as you can.
                     <br>
                 </p>
                 <br>
-                <img src="resources/LevelGLogoWhiteBackground.png" alt="LevelG-Logo-White-Background" onclick="window.open('mailto:levelgworld@gmail.com?subject=Thoughts on Level G')">
+                <!-- Move to about us -->
+                <img src="resources/Esports_6.1.jpg" alt="E-sports_Meet" class="small" id="smart_thumbnail">
+                <p id="onImgClick"></p>
+                
+                <!-- Move to tweets -->
+                <blockquote class="twitter-tweet" data-theme="dark">
+                    <p lang="en" dir="ltr">Names are rising ⭐️
+                        <br><br>
+                        The <a href="https://twitter.com/hashtag/FGS21?src=hash&amp;ref_src=twsrc%5Etfw">#FGS21</a> season is winding down but the journey to the <a href="https://twitter.com/FIFAe?ref_src=twsrc%5Etfw">@FIFAe</a> World Cup continues 🏆 in April. <a href="https://t.co/C7yXsr9KXt">pic.twitter.com/C7yXsr9KXt</a></p>&mdash; EA FIFA esports (@EAFIFAesports) <a href="https://twitter.com/EAFIFAesports/status/1377321927191060480?ref_src=twsrc%5Etfw">March 31, 2021</a>
+                </blockquote> 
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                
             </article>
             <aside>
-                <p>Placeholder to add comment thread later</p>
+                <div id="disqus_thread"></div>
             </aside>
         </main>
         <footer>
-            <p>Made by Barnabas Wire for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a></p>
+            <p>Made by Barnabas Wire for <a href="https://alx-apply.hbtn.io" target="_blank" class="navlink">ALX</a></p>
         </footer>
-        <script src="behaviour.js"></script>        
+             
     </body>
 </html>

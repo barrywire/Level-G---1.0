@@ -1,0 +1,93 @@
+:root
+{
+    --bg-color: black;
+    --genText-color: white;
+    --accent-color-one: red;
+    --accent-color-two: white;
+    --accent-color-three: grey;
+    --font-one: 'Inter', sans-serif;
+    --font-two: 'Raleway', sans-serif;
+    --font-three: 'Open Sans', sans-serif;
+}
+body
+{
+    display: flex;
+    background-color: var(--bg-color);
+    color: var(--genText-color);
+    flex-direction: column;
+}
+main
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+header
+{
+    padding-top: 20px;
+}
+article
+{
+    flex: 2;
+}
+aside
+{
+    flex: 1;
+}
+article, aside
+{
+    overflow-y: auto;
+}
+a
+{
+    text-decoration: none;
+    color: var(--accent-color-two);
+    font-family: var(--font-one);
+}
+ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.navlink
+{
+    color: var(--accent-color-two);
+    transition: font-size .2s ease-in-out;
+}
+#activePage
+{
+    color: var(--accent-color-one);
+    font-size: larger;
+}
+.navlink:hover
+{
+    font-size: x-large;
+}
+h1,
+h2,
+h3
+{
+    font-family: var(--font-two);
+    font-weight: bold;
+}
+p
+{
+    font-family: var(--font-one );
+}
+.twitter-tweet
+{
+    
+}
+#disqus_thread
+{
+    font-family: var(--font-one);
+    color: var(--accent-color-two);
+    background-color: var(--bg-color);
+}
+.emailPhoto
+{
+    justify-content: center;
+    width: 400px;
+    height: 210px;
+}
