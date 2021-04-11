@@ -122,14 +122,14 @@ aside
 .values
 {
     font-family: var(--font-two);
-    font-size: larger;
+    font-size: x-large;
     font-weight: lighter;
     color: var(--accent-color-one);
     transition: font-size .5s ease-in-out;
 }
 .values:hover
 {
-    font-size: x-large;
+    font-size: xx-large;
 }
 .mpic
 {
@@ -149,7 +149,7 @@ aside
 }
 .memberSocials:hover
 {
-    font-size: larger;
+    font-size: x-large;
     color: darkgrey;
 }
 .pic1
