@@ -7,117 +7,95 @@
     --accent-color-three: grey;
     --font-one: 'Inter', sans-serif;
     --font-two: 'Raleway', sans-serif;
-    --font-three: 'Open Sans', sans-serif;
-}
+    --font-three: 'Open Sans', sans-serif;}
 body
 {
     display: flex;
     background-color: var(--bg-color);
     color: var(--genText-color);
-    flex-direction: column;
-}
+    flex-direction: column;}
 main
 {
     display: flex;
     flex-direction: row;
-    flex: auto;
-}
+    flex: auto;}
 header
 {
-    padding-top: 20px;
-}
+    padding-top: 20px;}
 article
 {
-    flex: 2;
-}
+    flex: 2;}
 aside
 {
-    flex: 1;
-}
+    flex: 1;}
 article, aside
 {
-    overflow-y: auto;
-}
+    overflow-y: auto;}
 a
 {
     text-decoration: none;
     color: var(--accent-color-two);
-    font-family: var(--font-one);
-}
+    font-family: var(--font-one);}
 ul
 {
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none;
-}
+    list-style-type: none;}
 .navlink
 {
     color: var(--accent-color-two);
-    transition: font-size .2s ease-in-out;
-}
+    transition: font-size .2s ease-in-out;}
 .navlinkBig
 {
     color: var(--accent-color-one);
-    transition: font-size .2s ease-in-out;
-}
+    transition: font-size .2s ease-in-out;}
 #activePage
 {
     color: var(--accent-color-one);
-    font-size: larger;
-}
+    font-size: larger;}
 .navlinkBig:hover
 {
-    font-size: xx-large;
-}
+    font-size: xx-large;}
 .navlink:hover
 {
-    font-size: x-large;
-}
+    font-size: x-large;}
 h1,
 h2,
 h3
 {
     font-family: var(--font-two);
-    font-weight: bold;
-}
+    font-weight: bold;}
 p
 {
     font-family: var(--font-one );
-    line-height: 25px;
-}
+    line-height: 25px;}
 aside
 {
     border: 0;
     background-color: var(--bg-color);
     color: var(--accent-color-two);
-
 }
 #disqus_thread
 {
     font-family: var(--font-one);
     color: var(--accent-color-two);
-    background-color: var(--bg-color);
-}
+    background-color: var(--bg-color);}
 .emailPhoto
 {
     justify-content: center;
     width: 400px;
-    height: 210px;
-}
+    height: 210px;}
 .twitter-tweet
 {
-    margin-left: 9%;
-}
+    margin-left: 9%;}
 #registrationLink
 {
     color: var(--accent-color-three);
-    font-size: large;
-}
+    font-size: large;}
 .valuesList
 {
     display: flex;
     justify-content: space-evenly;
-
 }
 .values
 {
@@ -125,19 +103,16 @@ aside
     font-size: x-large;
     font-weight: lighter;
     color: var(--accent-color-one);
-    transition: font-size .5s ease-in-out;
-}
+    transition: font-size .5s ease-in-out;}
 .values:hover
 {
-    font-size: xx-large;
-}
+    font-size: xx-large;}
 .mpic
 {
     margin-left: 5%;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-}
+    border-radius: 50%;}
 .memberSocials
 {
     text-decoration: none;
@@ -145,16 +120,76 @@ aside
     font-family: var(--font-three);
     font-size: medium;
     transition: color .5s ease-in-out
-                font-size .5s ease-in-out; 
-}
+                font-size .5s ease-in-out; }
 .memberSocials:hover
 {
     font-size: x-large;
-    color: darkgrey;
-}
+    color: darkgrey;}
 .pic1
 {
     margin-left: 20%;
     height: 550px;
-    width: 400px;
+    width: 400px;}
+.blog {
+    margin: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog__header {
+    text-align: center;
+}
+.blog__header1 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.blog__header2 {
+    margin-top: 0.3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.blog__header2Span {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.blog__slider {
+    width: 700px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blog__post {
+    margin: 3rem 1rem;
+    width: 75%;
+}
+.blog__topImg {
+    max-width: 100%;
+}
+.blog__content {
+    padding: 0.8rem;
+}
+.blog__preview {
+  font-size: 0.95rem;
+  font-weight: 300;
+}
+.blog__title {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+.blog__intro {
+  line-height: 1.5;
+}
+.blog__info {
+  font-weight: 300;
+}
+.blog__author {
+  font-size: 0.9rem;
+}
+.blog__date {
+  font-size: 0.85rem;
 }
