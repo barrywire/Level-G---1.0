@@ -55,10 +55,19 @@ ul
     color: var(--accent-color-two);
     transition: font-size .2s ease-in-out;
 }
+.navlinkBig
+{
+    color: var(--accent-color-one);
+    transition: font-size .2s ease-in-out;
+}
 #activePage
 {
     color: var(--accent-color-one);
     font-size: larger;
+}
+.navlinkBig:hover
+{
+    font-size: xx-large;
 }
 .navlink:hover
 {
