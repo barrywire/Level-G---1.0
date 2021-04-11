@@ -75,6 +75,13 @@ p
 {
     font-family: var(--font-one );
 }
+aside
+{
+    border: 0;
+    background-color: var(--bg-color);
+    color: var(--accent-color-two);
+
+}
 #disqus_thread
 {
     font-family: var(--font-one);
@@ -87,3 +94,31 @@ p
     width: 400px;
     height: 210px;
 }
+.twitter-tweet
+{
+    margin-left: 9%;
+}
+#registrationLink
+{
+    color: var(--accent-color-three);
+    font-size: large;
+}
+.valuesList
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.values
+{
+    font-family: var(--font-two);
+    font-size: larger;
+    font-weight: lighter;
+    color: var(--accent-color-one);
+    transition: font-size .5s ease-in-out;
+}
+.values:hover
+{
+    font-size: x-large;
+}
+
