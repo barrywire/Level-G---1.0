@@ -49,6 +49,11 @@ ul
 {
     color: var(--accent-color-one);
     transition: font-size .2s ease-in-out;}
+#activePageLogo
+{
+  color: var(--accent-color-one);
+  font-size: larger;
+}
 #activePage
 {
     color: var(--accent-color-one);
